@@ -338,7 +338,7 @@ root
 By tracking the dependency edges throughout the tree at all times, we can
 trivially make this kind of decision while building the tree.
 
-### `peerDependencies`
+### `peerDependencies`<a name="arborist-deep-dive-peer-dependencies"></a>
 
 We'll get more into `peerDependencies` in a later post in this series, but
 one design goal for npm v7 was to [automatically install
