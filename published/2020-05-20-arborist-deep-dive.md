@@ -8,7 +8,7 @@ tags:
   - tree doctor
 ---
 
-[<< Introduction](https://blog.npmjs.org/post/617484925547986944/npm-v7-series-introduction)
+[<< Introduction](https://blog.npmjs.org/post/617484925547986944/npm-v7-series-introduction) [>> Why Keep `package-lock.json`?](https://blog.npmjs.org/post/621733939456933888/npm-v7-series-why-keep-package-lockjson)
 
 [@npmcli/arborist](https://github.com/npm/arborist/) is the dependency tree
 manager for npm, new in npm v7.  It provides facilities for doing nearly
@@ -455,4 +455,4 @@ If you have a project where you are doing interesting things with
 dependencies and packages, and want a more direct and programmatic API than
 just running `npm` in a child process, we'd love your feedback.
 
-[<< Introduction](https://blog.npmjs.org/post/617484925547986944/npm-v7-series-introduction)
+[<< Introduction](https://blog.npmjs.org/post/617484925547986944/npm-v7-series-introduction) [>> Why Keep `package-lock.json`?](https://blog.npmjs.org/post/621733939456933888/npm-v7-series-why-keep-package-lockjson)
