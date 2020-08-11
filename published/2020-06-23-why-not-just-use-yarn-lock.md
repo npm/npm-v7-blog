@@ -6,7 +6,10 @@ tags:
   - cli
 ---
 
-[<< Arborist Deep Dive](https://blog.npmjs.org/post/618653678433435649/npm-v7-series-arborist-deep-dive) [>> `npm ci` vs `npm install`]()
+[<< Arborist Deep
+Dive](https://blog.npmjs.org/post/618653678433435649/npm-v7-series-arborist-deep-dive)
+[>> Beta
+Release!](https://blog.npmjs.org/post/626173315965468672/npm-v7-series-beta-release-and-semver-major)
 
 One common question we've gotten a few times now, once we announce that npm
 v7 will include support for `yarn.lock` files, is "Why keep
@@ -47,8 +50,8 @@ So if it's good enough for Yarn, why doesn't npm just use that?
 ## Deterministic Build Results
 
 Yarn installs are guaranteed to be deterministic given a single combination
-of `yarn.lock` and Yarn version.  It is possible that a different version of
-Yarn will result in a different tree layout on disk.
+of `yarn.lock` and Yarn version.  It is possible that a different version
+of Yarn will result in a different tree layout on disk.
 
 A `yarn.lock` file _does_ guarantee deterministic _resolutions_ of
 dependencies.  For example, if `foo@1.x` resolves to `foo@1.2.3`, it'll
@@ -92,8 +95,8 @@ In practice, of course, since Yarn has all the required information in the
 everyone is using the same version of Yarn, so that the choice is being
 made in exactly the same way.  Code doesn't change unless someone changes
 it.  To its credit, Yarn is smart enough to not be subject to discrepancies
-in package manifest load times when building the tree, or else
-determinism would not be guaranteed.
+in package manifest load times when building the tree, or else determinism
+would not be guaranteed.
 
 As this is defined by the particulars of Yarn's algorithm rather than by
 the data structure on disk (which does not identify the algorithm to be
@@ -300,4 +303,7 @@ self-documenting by virtue of updating the saved contract on completion.
 Only `package-lock.json` or something like it can provide this
 functionality for npm.
 
-[<< Arborist Deep Dive](https://blog.npmjs.org/post/618653678433435649/npm-v7-series-arborist-deep-dive) [>> `npm ci` vs `npm install`]()
+[<< Arborist Deep
+Dive](https://blog.npmjs.org/post/618653678433435649/npm-v7-series-arborist-deep-dive)
+[>> Beta
+Release!](https://blog.npmjs.org/post/626173315965468672/npm-v7-series-beta-release-and-semver-major)
